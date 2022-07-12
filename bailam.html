@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bailam</title>
+</head>
+<body>
+<fieldset>Your Details: <br>
+  <label>Name: <br>
+    <input type="text" name="name" /></label><br>
+  <label>Email: <br>
+    <input type="text" name="Email"/></label>
+</fieldset>
+<fieldset>Your Review: <br>
+  <form action="http://www.exmple.com/profile.php">
+    <p>How did you hear about us?</p>
+    <select name="deveces">
+      <option value="Google">Google</option>
+      <option value="Facebook">Facebook</option>
+      <option value="Youtube">Youtube</option>
+    </select>
+  </form>
+  <form action="http://www.exmple.com/profile.php">
+    <p>Would you visit again? <br>
+      <input type="radio" name="service" value="yes" checked="checked"/>Yes
+      <input type="radio" name="service" value="no" checked="checked"/>No
+      <input type="radio" name="service" value="maybe" checked="checked"/>Maybe
+    </p>
+  </form>
+  <form action="http://www.exmple.com/comments.php">
+    <p>Comments: <br></p>
+    <textarea name="comments" cols="20" rows="4"></textarea>
+  </form>
+  <form action="http://www.exmple.com/submit.php" method="post">
+    <input type="checkbox" >Sign me up for email updates</input> <br>
+    <input type="submit" value="Submit review"/>
+  </form>
+</fieldset>
+</body>
+</html>
